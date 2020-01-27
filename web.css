@@ -1,0 +1,234 @@
+*
+{
+	padding: 0 px;
+	margin: 0 px;
+}
+body
+{
+	font-family: 'Open Sans Condensed', sans-serif;
+
+}
+#navbar {
+  
+  position: fixed; /* Make it stick/fixed */
+  top: 0;
+  z-index: 10;
+ 
+}
+.carousel-item {
+  width: 100%;
+  height: 550px;
+  margin-right: 10px;
+  
+}
+.carousel-caption
+{
+	top: 50%;
+	transform: translateY(-50);
+    bottom:unset;
+
+    
+}
+.carousel-caption h5
+{
+	color:red; 
+	font-size:42px;
+	font-family: 'Bangers', cursive;
+	text-align: center;
+}
+.container 
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.wr
+{ font-weight: bolder;
+font-size:300%;
+ }
+.www
+{
+	background-image: url(https://pbs.twimg.com/profile_images/765419750436384768/MMv2PN35_400x400.jpg);
+}
+.row h4
+{
+	color: rgb(51, 255, 109);
+}
+.rec1 h3
+{
+	padding-top: 20px;
+	color: rgb(51, 255, 109);
+}
+.abc 
+{
+	padding-top: 10px;
+	padding-bottom: 80px;
+}
+.skills-bar h2
+{color: rgb(51, 255, 109);
+
+}
+.skills-bar p
+{ margin-bottom: 5px;
+	font-weight: 900;
+
+}
+.progress-bar
+{
+	border-radius: 20px;
+}
+.progress
+{
+	border-radius: 20px;
+	margin-bottom: 20px;
+}
+#services
+{
+	padding: 10px 0;
+	}
+
+.the
+{
+	width: 300px;
+	margin-top: 20px;
+	border-radius: 16px;
+	max-height: 200px;
+}
+.wq
+{
+	width: 300px;
+	margin-top: 20px;
+	border-radius: 16px;
+	height: 170px;
+
+}
+hr {
+    border: 0;
+    height: 0; /* Firefox... */
+    color: #6a0dad;
+    box-shadow: 0 0 10px 6px red;
+}
+hr:after {  /* Not really supposed to work, but does */
+    content: "\00a0";  /* Prevent margin collapse */
+}
+#ser
+{
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+}
+#ser h1
+{
+	text-align: center;
+	padding-bottom: 10px;
+}
+.wet
+{
+	width: 300px;
+	margin-top: 50px;
+	border-radius: 16px;
+	height: 170px;
+
+}
+.row .col-md-4:hover
+{
+	background-color:rgb(255, 255, 0); 
+   border-bottom: 2px dotted black;
+}
+.row1 .col-md-4:hover
+{
+	background-color:rgb(255,0,0); 
+   border-bottom: 5px solid red;
+}
+#team
+{
+	
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: rgb(255,255,0);
+
+}
+
+#team h1
+{
+	text-align: center;
+	padding: 10px 0;
+}
+
+#team .row2
+{
+	margin-top: 30px;
+}
+.col-md-3
+{
+	margin: 10px auto;
+}
+.rohit
+{
+	padding: 50px 10px 10px;
+	background-color: #efefef;
+	text-align: center;
+}
+.india
+{
+	
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+}
+
+.rohit img
+{
+	padding-top: 30px;
+	position: absolute;
+  top: -60px;
+  left: 80px;
+  border: 1px solid black;
+  background-color: white;
+  
+}
+.rohit h3
+{
+	font-size: 20px;
+	margin-top: 20px;
+	color: rgb(0,0,255);
+}
+.rohit:hover
+{
+	box-shadow: 0 0 15px 5px rgba(0,136,0.2);
+	cursor: pointer;
+	transition: 0.2s;
+}
+#last
+{
+	
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #efefef;
+}
+
+#last h1
+{
+	text-align: center;
+	padding: 10px 0;
+}
+.follow
+{
+	background: #fff;
+	padding: 10px;
+	margin:15px;
+}
+.contact-info .fa
+{ margin:10px;
+	color:#007bff;
+	font-weight: bold;
+
+}
+
+#mmm
+{
+	background:#333;
+	color: #fff;
+	padding: 12px;
+	font-size: 20px;
+}
